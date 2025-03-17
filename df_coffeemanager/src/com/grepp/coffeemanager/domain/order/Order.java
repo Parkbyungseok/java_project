@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 public class Order {
     private String name;
     private Coffee coffee;
-    private int orderCnt;
+    private int orderCnt; //주문 개수
     private int orderPrice;
     private LocalDateTime orderTime = LocalDateTime.now(); // 현재 시간
     private OrderStatus status;

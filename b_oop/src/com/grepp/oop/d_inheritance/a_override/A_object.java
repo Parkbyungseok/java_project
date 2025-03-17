@@ -49,6 +49,7 @@ public class A_object {
     // instanceof : 특정 클래스의 인스턴스인지 판단
     @Override
     public boolean equals(Object o) {
+        // instanceof 앞쪽 o가 판단 기준[o가 A_object 타입이라면? o를 a0bject에 저장]
         if (!(o instanceof A_object aObject)) {
             return false;
         }
