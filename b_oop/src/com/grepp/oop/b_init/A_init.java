@@ -1,4 +1,4 @@
-package com.grepp.oop.b.init;
+package com.grepp.oop.b_init;
 
 public class A_init {
 
