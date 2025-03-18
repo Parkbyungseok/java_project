@@ -92,8 +92,9 @@ public class _LinkedList<E> implements _List<E>, Iterable<E> {
     }
 
     @Override
+    //반복자를 직접 구현하는 코드 -> for-each 문에서 사용할 수 있도록 하기 위해
     public Iterator<E> iterator() {
-        return new Iterator<E>(){ // 클래스를 만들면서 객체 생성!
+        return new Iterator<E>(){ // 클래스를 만들면서 객체 생성![내부 클래스 생성]
 
             //반환해야 할 위치
             private int pointer;

@@ -22,7 +22,7 @@ public class GeminiChatModel implements ChatModel {
         + "/models"
         + "/gemini-2.0-flash:generateContent";
 
-    private static final String API_KEY = "AIzaSyAro1HcDM1LCJ5b8lNmHCheQtw7mmpXOEw";
+    private static final String API_KEY = "";
 
     @Override
     public Response invoke(Request request) {

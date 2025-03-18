@@ -1,5 +1,5 @@
 ### POST gemini test
-POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCpjMehH_nOBgO50kcs6fNE_ZGA9IjJI7E
+POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?
 Content-Type:application/json
 
 //body부분
