@@ -12,15 +12,15 @@ public class A_concat {
 //        String java2 = "JAVA";
 
 //        concat();
-//        concatWithStringBuffer();
-        concatWithStringBuilder();
+        concatWithStringBuffer();
+//        concatWithStringBuilder();
     }
 
     private static void concatWithStringBuilder() {
         StringBuilder java = new StringBuilder("JAVA");
         System.out.println(System.identityHashCode(java));
         java= java.append(2);
-        System.out.println(java);
+        System.out.println(java); //JAVA2 출력
         System.out.println(System.identityHashCode(java));
     }
 
@@ -29,7 +29,7 @@ public class A_concat {
         StringBuffer java = new StringBuffer("JAVA");
         System.out.println(System.identityHashCode(java));
         java= java.append(2);
-        System.out.println(java);
+        System.out.println(java); //JAVA2 출력
         System.out.println(System.identityHashCode(java));
 
 
