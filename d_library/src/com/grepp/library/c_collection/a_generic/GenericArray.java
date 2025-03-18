@@ -10,8 +10,8 @@ public class GenericArray<E> {
 
     //외부에서 직접 수정하는 것을 막고 싶음 -> 캡슐화
     private Object[] elements;
-    private int size; //현재 있는 요소 크기
-    private int pointer; //만들 수 있는 배열의 크기
+    private int size; //생성할 배열 크기
+    private int pointer; //현재 배열에 있는 저장된 요소 개수
 
     //생성자를 통한 배열 선언
     public GenericArray(int size) {
